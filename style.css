@@ -1,0 +1,1093 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
+
+/*CSS REFERENTE AO MENU PRINCIPAL*/
+
+header {
+  height: 50px;
+  background-color: #0dc18f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+
+.logoB {
+  width: 150px;
+}
+
+.logo {
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+}
+
+.menu a {
+  list-style: none;
+  margin: 0px 20px;
+  color: white;
+  cursor: pointer;
+  transition: ease 0.1s;
+}
+
+.menu li:hover {
+  font-weight: 700;
+  padding: 1px 5px;
+  border-bottom: solid white 2px;
+  border-radius: 2px;
+  transition: ease 0.1s;
+}
+
+.btnMotorista {
+  background-color: white;
+  height: 30px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  align-items: center;
+  border-radius: 30px;
+  color: #0dc18f;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* FIM CSS REFERENTE AO MENU PRINCIPAL*/
+
+/*CSS REFERENTE A PAG HOME*/
+
+.home {
+  display: flex;
+  flex-direction: row;
+  height: 35vw;
+}
+
+.imagemHome {
+  width: 50%;
+}
+
+.imagemHome img {
+  height: 100%;
+  left: 50px;
+  margin: 0 0 0 -50px;
+}
+
+.secCTA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 100px 150px 50px;
+  width: 50%;
+  gap: 25px;
+  background-color: #ffffff00;
+}
+
+.secCTA h1 {
+  color: #0dc18f;
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 2.5vw;
+  text-wrap: nowrap;
+}
+
+.secCTA h2 {
+  font-size: 1.2vw;
+  font-weight: 900;
+  text-align: center;
+  color: #263238;
+  text-wrap: nowrap;
+}
+
+.secCTA p {
+  text-align: justify;
+  color: #263238;
+}
+
+.secCTA button {
+  border-radius: 30px;
+  padding: 10px 80px;
+  border: none;
+  background-color: #0dc18f;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2vw;
+  font-weight: 700;
+  font-style: italic;
+  text-wrap: nowrap;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards card {
+  height: 20vw;
+  width: 15vw;
+  background-color: #0dc18f;
+  margin: 0px 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 6px 6px 9px #26323850;
+}
+
+.cards card .texto {
+  height: 50%;
+}
+
+.onibus .img {
+  border-radius: 15px 15px 0 0;
+  height: 50%;
+  width: 100%;
+  background-image: url(assets/imagens/bus.png);
+  background-size: 130%;
+  background-position: center;
+}
+
+.van .img {
+  border-radius: 15px 15px 0 0;
+  height: 50%;
+  width: 100%;
+  background-image: url(assets/imagens/van.png);
+  background-size: 130%;
+  background-position: center;
+}
+
+.carro .img {
+  border-radius: 15px 15px 0 0;
+  height: 50%;
+  width: 100%;
+  background-image: url(assets/imagens/car.png);
+  background-size: 130%;
+  background-position: center;
+}
+
+.botao {
+  width: 55px;
+  height: 55px;
+  background-color: white;
+  box-shadow: 3px 3px 3px #26323850;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.botao img {
+  width: 40px;
+}
+
+card .texto {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.texto p {
+  padding: 40px 10px;
+}
+
+.quemSomos {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.bgQS {
+  width: 100%;
+  background-image: url(assets/imagens/Logo-gerenciar-color.png);
+  background-repeat: no-repeat;
+  background-position: 40vw;
+  background-size: 200vw;
+  filter: blur(8px);
+  opacity: 0.1;
+}
+
+.ctQS {
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ctQS .img {
+  width: 50%;
+}
+
+.ctQS .img img {
+  width: 42%;
+  position: absolute;
+  top: -70px;
+}
+
+.ctQS .descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 0px 100px;
+}
+
+.ctQS .descricao img {
+  height: 50px;
+  margin: 30px 0px;
+}
+
+.ctQS .descricao .textQuemSomos {
+  color: #263238;
+  text-align: justify;
+}
+
+.missao {
+  height: 400px;
+  background-color: #0dc18f;
+  display: flex;
+  flex-direction: row;
+}
+
+.missao .tema {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.missao .tema .princ {
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 900;
+  color: white;
+  z-index: 2;
+  position: absolute;
+}
+
+.missao .tema .sombra {
+  font-size: 100px;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 0.8px #ffffff50;
+}
+
+.missao p {
+  margin: 0px 100px;
+  text-align: justify;
+  color: white;
+}
+
+.missao img {
+  opacity: 0.7;
+}
+
+.valores {
+  height: 500px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  padding: 25px 0px;
+}
+
+.itensValores {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.itensValores .itemAvanc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-left: 100px;
+}
+
+.itensValores .itemRec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-left: 180px;
+}
+
+.itemAvanc h1 {
+  font-size: 15px;
+  font-weight: 900;
+  font-style: italic;
+  color: #263238;
+}
+
+.itemRec p {
+  color: #263238;
+}
+
+.itemRec h1 {
+  font-size: 15px;
+  font-weight: 900;
+  font-style: italic;
+  color: #263238;
+}
+
+.itemAvanc p {
+  color: #263238;
+}
+
+.itensValores .imgSeguranca {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  background-color: #0dc18f;
+}
+
+.itensValores .imgSeguranca {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  background-image: url(assets/imagens/pexels-buro-millennial-1438081.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #0dc18f;
+}
+
+.itensValores .imgConfianca {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  background-image: url(assets/imagens/pexels-fauxels-3184465.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #0dc18f;
+}
+
+.itensValores .imgResponsa {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  background-image: url(assets/imagens/pexels-andrea-piacquadio-826349.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #0dc18f;
+}
+
+.itensValores .imgInova {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  background-image: url(assets/imagens/pexels-luis-gomes-546819.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #0dc18f;
+}
+
+.itensValores .imgAtend {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  background-image: url(assets/imagens/pexels-andrea-piacquadio-3823488.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #0dc18f;
+}
+
+.ctValores {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ctValores .tema {
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ctValores .tema .princ {
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 900;
+  color: #0dc18f;
+  z-index: 2;
+  position: absolute;
+}
+
+.ctValores .tema .sombra {
+  font-size: 90px;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 0.8px #26323850;
+}
+
+.ctValores img {
+  size: 120%;
+  margin-left: -130px;
+}
+
+.parceiros {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.parceiros .header {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parceiros .carrosel {
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  background-color: #26323810;
+}
+
+.parceiros .logoParceiro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: #26323850;
+}
+
+.logoParceiro img {
+  width: 50px;
+  object-fit: cover;
+}
+
+.oferta {
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+}
+
+.oferta .ctOferta {
+  width: 65%;
+}
+
+.oferta .ctOferta .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  color: #263238;
+  font-weight: 900;
+  font-size: 28px;
+  font-style: italic;
+}
+
+.oferta .ctOferta .colunasOferta {
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+}
+
+.colunaCont {
+  height: 100%;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.itemCont {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itemCont img {
+  width: 50px;
+}
+
+.imgOferta {
+  width: 35%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgOferta img {
+  width: 100%;
+}
+
+.tech {
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+}
+
+.imgTech {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgTech img {
+  width: 100%;
+}
+
+.ctTech {
+  padding-right: 100px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ctTech .tituloSec {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  font-style: italic;
+  font-weight: 900;
+  color: #263238;
+}
+
+.ctTech img {
+  width: 100%;
+}
+
+.ctTech button {
+  padding: 10px 80px;
+  background-color: #0dc18f;
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* FIM  CSS REFERENTE A PAG HOME*/
+
+/*CSS REFERENTE AO RODAPÉ*/
+
+footer {
+  height: 400px;
+  background-color: #263238;
+}
+
+.pt1 {
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  height: 20%;
+}
+
+.pt1 img {
+  height: 30px;
+}
+
+.pt1 .linha {
+  height: 1px;
+  background-color: white;
+  width: 100%;
+}
+
+.pt2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0% 100px;
+  height: 60%;
+}
+
+.coluna {
+  padding: 20px 0px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: start;
+  color: white;
+}
+
+.coluna a {
+  color: white;
+  text-decoration: none;
+}
+
+.coluna img {
+  height: 25px;
+  cursor: pointer;
+}
+
+.coluna p {
+  text-align: right;
+}
+
+.coluna .iconesSGA {
+  display: flex;
+  gap: 20px;
+  justify-content: right;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 100px;
+}
+
+.rodape .linha {
+  height: 1px;
+  background-color: white;
+  width: 100%;
+}
+
+.rodape .itensLinha {
+  margin: 25px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rodape .itensLinha a {
+  color: white;
+  text-decoration: none;
+}
+
+.rodape .itensLinha .politicaTermos {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+/* FIM CSS REFERENTE AO RODAPÉ*/
+
+/* CSS REFERENTE A TELA DE CONTATOS*/
+
+.mainContato {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+
+.imagemTopo {
+  width: 100%;
+  height: 35%;
+  background-image: url(assets/imagens/pexels-fauxels-3184465.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: #0dc18f;
+}
+
+.formulario {
+  height: 65%;
+  display: flex;
+  flex-direction: row;
+}
+
+.contatos {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 30px 30px;
+  gap: 10px;
+}
+
+.contatos h3 {
+  margin-bottom: 20px;
+}
+
+.contatos p {
+  margin-left: 25px;
+}
+
+.entradas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 30px 30px;
+  align-items: center;
+  width: 40%;
+}
+
+.entradas form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  height: 22px;
+  width: 100%;
+  border-radius: 30px;
+  border: solid 1px #26323850;
+  box-shadow: inset 2px 2px 3px #26323830;
+  padding: 5px 15px;
+}
+
+input:active {
+  border: none;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 15px;
+  border: solid 1px #26323850;
+  box-shadow: inset 2px 2px 3px #26323830;
+  padding: 5px 15px;
+}
+
+#enviar {
+  height: 30px;
+  width: 200px;
+  color: #f1f1f1;
+  font-weight: 800;
+  font-style: italic;
+  background-color: #0dc18f;
+}
+
+.imagem {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+/* FIM CSS REFERENTE A TELA DE CONTATOS*/
+
+/* CSS REFERENTE A TELA DE MOTORISTAS*/
+
+.mainMotorista {
+  height: auto;
+}
+
+.queroSerMotorista {
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.ctaMotorista {
+  width: 55%;
+  padding: 50px 0px 0px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ctaMotorista h1 {
+  font-weight: 900;
+  font-size: 5vw;
+  color: #0dc18f;
+}
+
+.ctaMotorista p {
+  color: #263238;
+}
+
+.ctaMotorista button {
+  width: 50%;
+  height: 50px;
+  background-color: #0dc18f;
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.ctaMotorista button:hover {
+  font-size: 17px;
+  background-color: #007a57;
+}
+
+.imgMotorista {
+  width: 45%;
+  background-image: url(assets/imagens/Quero-ser-motorista.png);
+  background-repeat: no-repeat;
+}
+
+.requisitos {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.preRequisitos {
+  height: 250px;
+  width: 50%;
+  background-color: #0dc18f;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+}
+
+.imgReq {
+  width: 50%;
+  background-image: url(assets/imagens/check-list-regis.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.boxTextReq {
+  width: 50%;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxTextReq h2 {
+  color: #0dc18f;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.boxTextReq p {
+  margin: 0px 20px;
+  text-align: center;
+  color: #263238;
+}
+
+.boxTextReq button {
+  background-color: #0dc18f50;
+  border: solid 1px #0dc18f;
+  border-radius: 20px;
+  color: #263238;
+  font-weight: 700;
+  font-style: italic;
+  padding: 5px 25px;
+  cursor: pointer;
+}
+
+.boxTextReq button:hover {
+  background-color: #007a5750;
+}
+
+.ganhos {
+  height: 250px;
+  width: 18%;
+  background-color: #0dc18f;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.ganhos h2 {
+  padding-top: 10px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.ganhos p {
+  text-align: center;
+  margin: 0px 10px;
+}
+
+.horasSemanais h2 {
+  padding: 0px;
+  font-size: 3vw;
+  margin: -10px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+}
+
+.horasSemanais p {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.ganhos button {
+  background-color: #ffffff50;
+  border: solid 1px #ffffff99;
+  border-radius: 20px;
+  font-weight: 700;
+  font-style: italic;
+  padding: 5px 25px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.ganhos button:hover {
+  background-color: #ffffff80;
+}
+
+.confirmeCadastro {
+  height: 500px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+}
+
+.imgContrato {
+  width: 40%;
+  background-image: url(assets/imagens/ass-contrato.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.ctContrato {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.ctContrato h1 {
+  color: #0dc18f;
+  font-size: 3vw;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.ctContrato p {
+  text-align: justify;
+  padding: 0px 100px;
+  color: #263238;
+}
+
+.ctContrato button {
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.5vw;
+  width: 50%;
+  height: 50px;
+  background-color: #0dc18f;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.ctContrato button:hover {
+  background-color: #00996e;
+}
+
+/* FIM CSS REFERENTE A TELA DE MOTORISTAS*/
+
+/* CSS REFERENTE A TELA DE CADASTRO*/
+
+.cadastroMotorista {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  padding: 50px 200px;
+  background-image: url(assets/imagens/free-traffic@2x.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.tituloPag{
+  margin: 25px 0px;
+  font-weight: 900;
+  font-style: italic;
+  color: #0dc18f
+}
+
+.cadastroMotorista form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tituloForm {
+  width: 100%;
+  background-color: #ffffffbb;
+  border-radius: 30px;
+  padding: 10px 15px;
+  backdrop-filter: blur(5px);
+  box-shadow: 3px 3px 2px #00000020;
+  color:#0dc18f;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+.formRow{
+  background-color: red;
+  width: 100%;
+  padding: 15px;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cadastroMotorista .formRow input{
+  width: 50%
+}
+
+.cadastroMotorista input {
+  height: 22px;
+  width: 100%;
+  border-radius: 30px;
+  border: solid 1px #26323850;
+  box-shadow: inset 2px 2px 3px #26323830;
+  padding: 5px 15px;
+}
+
+/* FIM CSS REFERENTE A TELA DE CADASTRO*/
